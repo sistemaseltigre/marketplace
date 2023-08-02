@@ -1,0 +1,78 @@
+$color-1: #fbfbfb;
+$color-2: #5A5A5A;
+$color-3: #333333;
+$box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+$color-4:rgb(0, 255, 163);
+ul {
+  padding-left: 0;
+}
+.msg_sissi{
+  font-size: 14px;
+}
+.imgIcoBtnPioly{
+margin-top: 10px;
+margin-left: 5px;
+}
+input[type='number']{
+  width: 50px;
+  height: 20px;
+  font-size: 12px;
+}
+.button{
+  font-size: 8px;
+} 
+.market{
+  background-color: #e3e3e3bb;
+  font-size: 14px;
+  width: 90%;
+  max-width: 970px;
+  min-height: 300px;
+  max-height: 600px;
+  overflow-y: auto;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 10px;
+  gap: 30px;
+  span{
+    font-size: 14px;
+  }
+  .market__container{
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    & > div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.25);
+      min-height: 165px;
+      padding: 10px;
+      border-radius: 10px;
+      img{
+        max-height: 70px;
+        margin-bottom: 10px;
+      }
+      .market__item{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10px;
+        border-radius: 5px;
+        border: none;
+        font-size: 12px;
+        
+      }
+    }
+  }
+}
